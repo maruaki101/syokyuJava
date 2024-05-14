@@ -5,7 +5,7 @@ public class Start {
 		// TODO 自動生成されたメソッド・スタブ
 		
 		
-		MyFrame frame1 =new RectFrame();
+		/*MyFrame frame1 =new RectFrame();
 		frame1.setLocation(350,150);
 		
 		MyFrame frame2 =new RectFrame();
@@ -16,9 +16,10 @@ public class Start {
 		y=3;
 		ans = x * y;
 		
-		System.out.println(ans);
+		System.out.println(ans);*/
 		
-		
+		System.out.println("プログラムを実行します");
+		MyFrame frame1 = new RectTest();
 	}
 
 }
