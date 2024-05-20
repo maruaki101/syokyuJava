@@ -9,7 +9,7 @@ public class RectLoop extends MyFrame
 		{
 			fillRect(x,80,10,100);
 			x += 20;
-			if(x > 170) 
+			if(x > 210) 
 			{
 				break;
 			}
