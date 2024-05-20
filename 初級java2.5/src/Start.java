@@ -28,7 +28,9 @@ public class Start {
 		
 		//MyFrame frame1 = new ManyFigures()
 		
-		MyFrame frame1 = new RectLoop();
+		//MyFrame frame1 = new RectLoop();
+		
+		MyFrame frame1 = new RectIf();
 	}
 
 }
