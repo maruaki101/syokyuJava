@@ -3,14 +3,15 @@ public class Practice4 extends MyFrame
 {
 	public void run() 
 	{
-		int x =30,count =0;
+		int x =30,count =0,y=30, g = 30;
 		while(true) 
 		{
-			fillRect(x,30,10,100);
+			fillRect(y,y,x,x);
 			x+=20;
-			setColor(x,x,x);
+			y += g;
+			g +=20;
 			count++;
-			if(count == 10) 
+			if(count == 5) 
 			{
 				break;
 			}
