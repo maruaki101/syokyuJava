@@ -7,7 +7,7 @@ public class Start {
 				
 		System.out.println("プログラムを実行します");
 
-		MyFrame frame1 = new DisplayFaceAndTree();
+		MyFrame frame1 = new Practice6();
 	}
 
 }
