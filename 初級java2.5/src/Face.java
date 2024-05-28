@@ -1,11 +1,24 @@
 
 public class Face extends MyFrame
 {
-	int x,y;
+	int x,y,vx,vy;
+	public Face(int x, int y,int vx, int vy) 
+	{
+		this.x = x;
+		this.y = y;
+		this.vx=vx;
+		this.vy=vy;
+	}
 	public void drow(MyFrame frame) 
 	{
-		fillOval(x,y,50,100);
-		fillOval(x+100,y,50,100);
-		fillRect(x,y+160,150,10);
+		frame.fillOval(x,y,50,100);
+		frame.fillOval(x+100,y,50,100);
+		frame.fillRect(x,y+160,150,10);
+	}
+	
+	public void move() 
+	{
+		x+=vx;
+		y+=vy;
 	}
 }

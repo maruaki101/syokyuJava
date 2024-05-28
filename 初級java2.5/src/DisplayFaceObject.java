@@ -3,14 +3,21 @@ public class DisplayFaceObject extends MyFrame
 {
 	public void run() 
 	{
-		Face face1 = new Face();;
-		face1.x = 100;
-		face1.y = 50;
-		face1.drow(this);
+		Face face1 = new Face(50,50,10,5);
 		
-		Face face2 = new Face();;
-		face1.x = 150;
-		face1.y = 100;
-		face1.drow(this);
+		
+		Face face2 = new Face(200,100,-10,-5);
+		
+		
+		for(int i=1;i<30;i++) 
+		{
+			clear();
+			face1.drow(this);
+			face2.drow(this);
+			face1.move();
+			face2.move();
+			sleep(0.1);
+
+		}
 	}
 }
