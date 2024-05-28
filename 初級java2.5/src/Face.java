@@ -1,5 +1,5 @@
 
-public class Face extends MyFrame
+public class Face
 {
 	int x,y,vx,vy;
 	public Face(int x, int y,int vx, int vy) 
