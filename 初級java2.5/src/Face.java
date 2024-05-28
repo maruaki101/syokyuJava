@@ -9,7 +9,7 @@ public class Face extends MyFrame
 		this.vx=vx;
 		this.vy=vy;
 	}
-	public void drow(MyFrame frame) 
+	public void draw(MyFrame frame) 
 	{
 		frame.fillOval(x,y,50,100);
 		frame.fillOval(x+100,y,50,100);
