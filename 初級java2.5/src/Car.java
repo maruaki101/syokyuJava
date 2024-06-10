@@ -1,7 +1,6 @@
 
-public class Car 
+public class Car extends Vehicle 
 {
-	int x,y,vx,vy;
 	public Car(int x,int y, int vx,int vy) 
 	{
 		this.x=x;
